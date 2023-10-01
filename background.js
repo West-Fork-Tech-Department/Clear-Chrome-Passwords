@@ -14,6 +14,14 @@ chrome.runtime.onInstalled.addListener(function(details){
     }
 });
 
+// Run when browser starts
+chrome.runtime.onStartup.addListener(function(details){
+    chrome.browsingData.remove({
+        "since": sincedate
+    }, {
+        "passwords": true
+    }, callback);
+});
 
 
 
