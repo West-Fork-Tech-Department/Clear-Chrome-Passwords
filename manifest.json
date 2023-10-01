@@ -3,7 +3,7 @@
 
     "name": "Clear Chrome Passwords",
     "description": "Removes all passwords from the users Chrome Password Manager.",
-    "version": "1.0",
+    "version": "2.0",
 
     "icons": {
         "48": "password.png"
